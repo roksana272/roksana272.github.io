@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>My Portfolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <style>
+         /* Remove the navbar's default margin-bottom and rounded borders */ 
+         .navbar {
+         margin-bottom: 0;
+         border-radius: 0;
+         height:30px;
+         background-color:Gray;
+         }
+         .navbar-brand h1 {
+         color: #FFF;
+         text-shadow: 1px 1px 2px #000, 0px 0px 25px #00F, 0px 0px 5px #00008B;
+         margin-top: -5px;
+         }
+         .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+         color: #FFF;
+         background-color: #080808;
+         font-size: 24px;
+         }
+         body {
+         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+         font-size: 24px;
+         line-height: 1.42857;
+         color: #333;
+         background-color: #FFF;
+         }
+         h1 {
+         font-size: 24px;
+         margin-top: 0px;
+         margin-bottom: 10px;
+         font-color:#fff;
+         }
+         /* Add a gray background color and some padding to the footer */
+         footer {
+         background-color:Gray;
+         padding: 25px;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                  </button>
+                  <a class="navbar-brand" href="portfolio.html">
+                     <h1>Roksana Akther</h1>
+                  </a>
+               </div>
+               <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                     <li ><a  href="index.html">Home</a></li>
+                     <li><a href="education.html">Education</a></li>
+                     <li class="active"><a href="skill.html">Skills</a></li>
+                     <li><a href="gallery.html">Gallery</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="jumbotron">
+            <h2>Skills:</h2>
+            <button type="button"class="btn btn-success"data-toggle="collapse"data-target="#demo">HTML</button>
+            <div id="demo"class="collapse in">
+               <p>As i want to learn web designing my first step was learning HTML.As a self-learner i started learning HTML5 from different online resources like W3 school,Udemy,Training with live project etc.From my learning i build a static website for a restaurent using HTML5 and styled it with CSS.Though it was not so good but it was my first attempt.Now i am very comfortable working with HTML5.</p>
+            </div>
+            <button type="button"class="btn btn-warning"data-toggle="collapse"data-target="#emo">CSS</button>
+            <div id="emo"class="collapse">
+               <p>Css is a wonderfull thing to learn.Working with Css can give anyone pleasure and i'm very fond of styling webpages with CSS.</p>
+            </div>
+            <button type="button"class="btn btn-danger"data-toggle="collapse"data-target="#web">Bootstrap</button>
+            <div id="web"class="collapse">
+               <p>As i want to make my websites responsive,i started learning Bootstrap from W3 school.Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.</p>
+               <p>Bootstrap is completely free to download and use.I make my Portfolio website using Bootstrap</p>
+            </div>
+            <button type="button"class="btn btn-primary"data-toggle="collapse"data-target="#ser">PHP</button>
+            <div id="ser"class="collapse">
+               <p>I started learning PHP for making my websites dynamic</p>
+               <p>PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.
+                  PHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP.
+                  PHP 7 is the latest stable release.
+               </p>
+            </div>
+            <button type="button"class="btn btn-info"data-toggle="collapse"data-target="#ript">Javascript</button>
+            <div id="ript"class="collapse">
+               <p>I started learning Javascript for making my web pages functional</p>
+               <p>JavaScript is the programming language of HTML and the Web.
+                  JavaScript is easy to learn.
+            </div>
+         </div>
+         <footer class="container-fluid text-center">
+              <div class="social">
+               <a href="https://www.github.com/roksana272"><img src="images/iconfinder_28_1579074.png"alt="github"/></a>
+               <a href="https://www.linkedin.com/in/roksana-akther-420a7b185/"><img src="images/iconfinder_linked_in__social__media__social_media___3244028.png"alt="Linkedin"/></a>
+            </div>
+         </footer>
+      </div>
+      <ul class="pager">
+         <li class="previous"><a href="education.html">Previous</a></li>
+         <li class="next"><a href="gallery.html">Next</a></li>
+      </ul>
+   </body>
+</html>
